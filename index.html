@@ -4,43 +4,68 @@
   <meta charset="UTF-8">
   <title> Ar pasiilgsi manes?</title>
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-  <style>
-    body {
-      text-align: center;
-      font-family: 'Raleway', sans-serif;
-      background-color: #ffeef0;
-      padding-top: 100px;
-    }
+ <style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffc8dd;
+    min-height: 100vh;
+    margin: 0;
+    padding: 50px 20px;
+    text-align: center;
+  }
 
+  h1 {
+    font-size: 72px;
+    max-width: 100%;
+    word-break: break-word;
+  }
+
+  button {
+    font-size: 24px;
+    padding: 12px 24px;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  #message {
+    color: purple;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 32px;
+  }
+
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #kissGif,
+  #noGif {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
     h1 {
-      font-size: 72px; /* 6x bigger than default */
-    }
-
-    #kissGif,
-    #noGif {
-      display: none;
-      margin-top: 46px;
+      font-size: 48px;
     }
 
     button {
-      font-size: 24px;
-      padding: 12px 24px;
-      margin: 10px;
-      cursor: pointer;
+      font-size: 20px;
+      padding: 10px 20px;
     }
 
     #message {
-      color: purple;
-      font-weight: bold;
-      margin-top: 20px;
-      font-size: 32px;
+      font-size: 24px;
     }
+  }
+</style>
 
-    img {
-      display: block;
-      margin: 46px auto;
-    }
-  </style>
 </head>
 <body>
 
