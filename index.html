@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Do You Miss Me?</title>
+  <title> Will You Miss Me?</title>
   <style>
     body {
       text-align: center;
-      font-family: Arial, sans-serif;
-      background-color: #ffeef0;
+      font-family: Dancing Script, sans-serif;
+      background-color: #fdc5f5;
       padding-top: 100px;
     }
     #kissGif {
@@ -29,13 +29,14 @@
 </head>
 <body>
 
-  <h1>Do you miss me?</h1>
+  <h1>Will you miss me?</h1>
   <button onclick="sayYes()">Yes</button>
   <button onclick="sayNo()">No</button>
 
   <div id="message"></div>
-  <img id="kissGif" src="https://media.giphy.com/media/G3va31oEEnIkM/giphy.gif" alt="Kiss GIF" width="300">
-
+  <img id="kissGif" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnFmd2diMnd0b2JyMHM0YnExNDJrMWViYTBsN3NxbDg2d3JxYXNsZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10UUe8ZsLnaqwo/giphy.gif" alt="Kiss GIF" width="300">
+  <img id="noGif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHN5ZzF1MjM3dmViNnUwaW8zZXB2ZnlocDF1bjMzbmNzdmhwbGRlcCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3oAt2dA6LxMkRrGc0g/giphy.gif" alt="No GIF" width="300" style="display: none;">
+  
   <script>
     function sayYes() {
       document.getElementById("message").innerText = "";
@@ -43,7 +44,7 @@
     }
 
     function sayNo() {
-      document.getElementById("message").innerText = "Don't lie, try again.";
+      document.getElementById("message").innerText = "Nemeluok.";
       document.getElementById("kissGif").style.display = "none";
     }
   </script>
