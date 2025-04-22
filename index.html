@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Do You Miss Me?</title>
+  <title> Ar pasiilgsi manes?</title>
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
   <style>
     body {
@@ -19,7 +19,7 @@
     #kissGif,
     #noGif {
       display: none;
-      margin-top: 20px;
+      margin-top: 46px;
     }
 
     button {
@@ -38,15 +38,15 @@
 
     img {
       display: block;
-      margin: 20px auto;
+      margin: 46px auto;
     }
   </style>
 </head>
 <body>
 
-  <h1>Do you miss me?</h1>
-  <button onclick="sayYes()">Yes</button>
-  <button onclick="sayNo()">No</button>
+  <h1>Ar pasiilgsi manes?</h1>
+  <button onclick="sayYes()">Taip</button>
+  <button onclick="sayNo()">NE</button>
 
   <div id="message"></div>
   <img id="kissGif" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnFmd2diMnd0b2JyMHM0YnExNDJrMWViYTBsN3NxbDg2d3JxYXNsZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/10UUe8ZsLnaqwo/giphy.gif" alt="Kiss GIF" width="300">
@@ -60,7 +60,7 @@
     }
 
     function sayNo() {
-      document.getElementById("message").innerText = "NEMELUOK. Bandyk vėl :Ddd ";
+      document.getElementById("message").innerText = "NEMELUOK. :Ddd ";
       document.getElementById("kissGif").style.display = "none";
       document.getElementById("noGif").style.display = "block";
     }
